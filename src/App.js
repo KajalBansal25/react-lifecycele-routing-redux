@@ -15,12 +15,13 @@ import GetSnapshotBeforeUpdate from "./reactLifecycle/updating/GetSnapshotBefore
 import ComponentDidUpdate from "./reactLifecycle/updating/ComponentDidUpdate";
 import ComponentWillUnmount from "./reactLifecycle/unmounting/ComponentWillUnmount";
 import Router from "./router/Router";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
       {/* <StaticTypeChecking /> */}
-      <Practice />
+      {/* <Practice /> */}
       {/* <PureComponents /> */}
       {/* <ReferentialEqualityUseMemo /> */}
       {/* <Constructor /> */}
@@ -33,6 +34,8 @@ function App() {
       {/* <ComponentDidUpdate /> */}
       {/* <ComponentWillUnmount /> */}
       {/* <Router /> */}
+      <h1>hell to redux</h1>
+      <Profile />
     </div>
   );
 }
